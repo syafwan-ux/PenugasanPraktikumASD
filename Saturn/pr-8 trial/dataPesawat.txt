@@ -1,0 +1,20 @@
+Lion Air,GA101,New York,76
+Wings Air,ID202,Bangkok,24
+Citilink,JT303,Jakarta,63
+Garuda Indonesia,QG404,London,93
+Batik Air,SJ505,Cape Town,11
+Trigana Air Service,IU606,Buenos Aires,72
+Sriwijaya Air,AK707,Moscow,3
+AirAsia,KL123,Dubai,54
+Etihad Airways,SQ909,Istanbul,36
+Firefly,TG010,Tokyo,60
+Malaysia Airlines,EK111,Paris,82
+Indonesia AirAsia,QR222,Seoul,44
+Carpatair,BA333,Cairo,72
+Calm Air,AF444,Mumbai,97
+Cape Air,LH555,Toronto,3
+Calafia Airlines,LK981,Rome,87
+CanaryFly,CX666,Berlin,58
+Canadian North,NH777,Beijing,54
+ZIPAIR Tokyo,DL888,Surabaya,98
+Zagros Airlines,UA999,Purwokerto,97

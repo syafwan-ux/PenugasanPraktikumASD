@@ -1,0 +1,121 @@
+Logging level: Debug
+Configurations cached at d:\codes\Saturn\pr-10\.vscode\configurationCache.log
+No folder path to the makefile is defined in the settings file.
+Always pre-configure: false
+Always post-configure: false
+Dry-run switches: '--always-make', '--keep-going', '--print-directory'
+Found the following configurations defined in makefile.configurations setting: Default;Print make version
+Reading current launch configuration "d:\codes\c++\Test14>LatihanPemrograman()" from the workspace state.
+Default launch configuration: MIMode = undefined,
+                miDebuggerPath = undefined,
+                stopAtEntry = undefined,
+                symbolSearchPath = undefined
+Configure on open: true
+Configure on edit: true
+Configure after command: true
+Only .PHONY targets: false
+Save before build or configure: true
+Build before launch: true
+Clear output before build: true
+Ignore directory commands: true
+compile_commands.json path: null
+Deduced command 'mingw32-make.exe -f d:\codes\Saturn\pr-10\Makefile' for configuration "Default"
+Saving opened files before build.
+Configuring from cache: d:\codes\Saturn\pr-10\.vscode\configurationCache.log
+Load configuration from cache elapsed time: 5.219
+Sending Workspace Browse Configuration: -----------------------------------
+    Browse Path: d:\codes\Saturn\pr-10
+    Standard: c++11
+    Compiler Path: C:\msys64\ucrt64\bin\g++.exe
+    Compiler Arguments: -Wall;-c;Assignment_1.cpp;-o;Assignment_1.o
+----------------------------------------------------------------------------
+Sending configuration (from cache) for file d:\CODES\SATURN\PR-10\ASSIGNMENT_1.CPP -----------------------------------
+    Defines: 
+    Includes: 
+    Force Includes: 
+    Standard: c++11
+    IntelliSense Mode: undefined
+    Compiler Path: C:\msys64\ucrt64\bin\g++.exe
+    Compiler Arguments: -Wall;-c;Assignment_1.cpp;-o;Assignment_1.o
+---------------------------------------------------------------------------------------------------
+Generating in the background a new configuration cache with command: 'mingw32-make.exe all -f d:\codes\Saturn\pr-10\Makefile --dry-run --always-make --keep-going --print-directory'
+Writing the dry-run output: d:\codes\Saturn\pr-10\.vscode\dryrun.log
+Spawning child process with:
+ process name: mingw32-make.exe
+ process args: all,-f,d:\codes\Saturn\pr-10\Makefile,--dry-run,--always-make,--keep-going,--print-directory
+ working directory: d:\codes\Saturn\pr-10
+ shell type: default
+Generating dry-run elapsed time: 0.096
+Preprocessing: "d:\codes\Saturn\pr-10\.vscode\dryrun.log"
+Preprocess elapsed time: 0
+Parsing for IntelliSense.
+Updating the CppTools IntelliSense Configuration Provider.
+Parsing dry-run output for CppTools Custom Configuration Provider.
+Analyzing line: mingw32-make: Entering directory 'd:/codes/Saturn/pr-10'
+MAKE -C: entering directory d:/codes/Saturn/pr-10
+Found compiler command: g++ -std=c++11 -Wall -c Assignment_1.cpp -o Assignment_1.o
+Sending configuration for file d:\codes\Saturn\pr-10\Assignment_1.cpp -----------------------------------
+    Defines: 
+    Includes: 
+    Force Includes: 
+    Standard: c++11
+    IntelliSense Mode: undefined
+    Compiler Path: C:\msys64\ucrt64\bin\g++.exe
+    Compiler Arguments: -Wall;-c;Assignment_1.cpp;-o;Assignment_1.o
+---------------------------------------------------------------------------------------------------
+Found compiler command: g++ -std=c++11 -Wall -o Assignment_1 Assignment_1.o
+Analyzing line: mingw32-make: Leaving directory 'd:/codes/Saturn/pr-10'
+POPD command or end of MAKE -C: leaving directory d:/codes/Saturn/pr-10 and entering directory d:\codes\Saturn\pr-10
+Sending Workspace Browse Configuration: -----------------------------------
+    Browse Path: d:\codes\Saturn\pr-10
+    Standard: c++11
+    Compiler Path: C:\msys64\ucrt64\bin\g++.exe
+    Compiler Arguments: -Wall;-c;Assignment_1.cpp;-o;Assignment_1.o
+----------------------------------------------------------------------------
+Parsing for IntelliSense elapsed time: 0.347
+Parsing for launch targets.
+Analyzing line: mingw32-make: Entering directory 'd:/codes/Saturn/pr-10'
+MAKE -C: entering directory d:/codes/Saturn/pr-10
+Found linker command: g++ -std=c++11 -Wall -o Assignment_1 Assignment_1.o
+Producing target binary: Assignment_1
+Adding launch configuration:
+d:\codes\Saturn\pr-10>Assignment_1()
+Analyzing line: mingw32-make: Leaving directory 'd:/codes/Saturn/pr-10'
+POPD command or end of MAKE -C: leaving directory d:/codes/Saturn/pr-10 and entering directory d:\codes\Saturn\pr-10
+Analyzing line: mingw32-make: Entering directory 'd:/codes/Saturn/pr-10'
+MAKE -C: entering directory d:/codes/Saturn/pr-10
+Analyzing line: mingw32-make: Leaving directory 'd:/codes/Saturn/pr-10'
+POPD command or end of MAKE -C: leaving directory d:/codes/Saturn/pr-10 and entering directory d:\codes\Saturn\pr-10
+Found the following 1 launch targets defined in the makefile: d:\codes\Saturn\pr-10>Assignment_1()
+Complete list of launch targets: d:\codes\Saturn\pr-10>Assignment_1()
+Parsing for launch targets elapsed time: 0.035
+Generating parse content for build targets.
+Generating targets information with command: 'mingw32-make.exe all -f d:\codes\Saturn\pr-10\Makefile --print-data-base --no-builtin-variables --no-builtin-rules --question'
+Writing the dry-run output: d:\codes\Saturn\pr-10\.vscode\targets.log
+Spawning child process with:
+ process name: mingw32-make.exe
+ process args: all,-f,d:\codes\Saturn\pr-10\Makefile,--print-data-base,--no-builtin-variables,--no-builtin-rules,--question
+ working directory: d:\codes\Saturn\pr-10
+ shell type: default
+Generating dry-run elapsed time: 0.063
+Parsing for build targets from: "d:\codes\Saturn\pr-10\.vscode\targets.log"
+Found the following 7 build targets defined in the makefile: .PHONY;Assignment_1;Assignment_1.o;all;clean;run;test
+Complete list of build targets: .PHONY;Assignment_1;Assignment_1.o;all;clean;run;test
+Parsing build targets elapsed time: 0.001
+Configure finished. The status for all the subphases that ran:
+loadFromCache: return code = 0, elapsed time = 5.219
+generateParseContent: return code = 0, elapsed time = 0.096
+preprocessParseContent: return code = 0, elapsed time = 0
+parseIntelliSense: return code = 0, elapsed time = 0.347
+parseLaunch: return code = 0, elapsed time = 0.035
+dryrunTargets: return code = 1, elapsed time = 0.063
+parseTargets: return code = 0, elapsed time = 0.001
+Configure succeeded.
+Configure elapsed time: 5.789
+Sending telemetry: eventName = configure
+properties: firstTime = "false",makeDryRun = "true",readCache = "true",isClean = "true",processTargetsSeparately = "false",resetBuildTarget = "false",triggeredBy = "configure dirty (on open), settings (configureOnOpen)",buildTarget = "all"
+measures: numberBuildTargets = "7",numberLaunchTargets = "1",numberIndexedSourceFiles = "1",numberMakefileConfigurations = "2",totalElapsedTime = "5.789",exitCode = "0",loadFromCache.exitCode = "0",loadFromCache.elapsed = "5.219",generateParseContent.exitCode = "0",generateParseContent.elapsed = "0.096",preprocessParseContent.exitCode = "0",preprocessParseContent.elapsed = "0",parseIntelliSense.exitCode = "0",parseIntelliSense.elapsed = "0.347",parseLaunch.exitCode = "0",parseLaunch.elapsed = "0.035",dryrunTargets.exitCode = "1",dryrunTargets.elapsed = "0.063",parseTargets.exitCode = "0",parseTargets.elapsed = "0.001"
+Sending telemetry: eventName = settings
+properties: makefile.configurations.name = "...",makefile.launchConfigurations.cwd = "...",makefile.launchConfigurations.binaryPath = "...",makefile.makePath = "...",makefile.makeDirectory = "undefined",makefile.makefilePath = "...",makefile.buildLog = "undefined",makefile.extensionOutputFolder = "...",makefile.extensionLog = "...",makefile.configureOnOpen = "true"
+Configuration for file D:\CODES\SATURN\PR-11\ASSIGNMENT_2.CPP was not found. CppTools will set a default configuration
+Configuration for file D:\IMPORTANT\UNIV 2024\PERKULIAHAN\SEMESTER II\PENGANTAR STATISTIKA\PENUGASAN PERTAMA\ASSIGNMENT_1.CPP was not found. CppTools will set a default configuration

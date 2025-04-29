@@ -1,0 +1,359 @@
+mingw32-make.exe all -f d:\codes\Saturn\pr-11\Makefile --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.4.1
+# Built for Windows32
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Apr 17 20:32:37 2025
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\Syafwan
+# environment
+C_INCLUDE_PATH = C:\Users\Syafwan\scoop\apps\gcc\current\include
+# environment
+LOCALAPPDATA = C:\Users\Syafwan\AppData\Local
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = D:\folder apps\Visual Code\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := mingw32-make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29176_ZMWCTVZKQHSEUJPD
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+IGCCSVC_DB = AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaE1qYe4In0WFOxW8h5o/BAQAAAACAAAAAAAQZgAAAAEAACAAAAAZglPt1G/caiURXjikntdCLKT1IJvptGoXRY7baLMOcQAAAAAOgAAAAAIAACAAAAD0D/T+fdb6zhxWlP9SREz/y9wVjQPEgdCzGUl7MGRlDmAAAAB6kiZTtP9stIA2Kp5/HcqamrfhC2s01K1ZwNADN9LRwXOiYz+1G9IrTS5kEKxJoluNw/RmN5diZx+eANb9mZbadIcpreDz9J/xYhXYpjtDdjT5RfZzZ2NjZdDKIMl+74JAAAAAo2naHBoRZzUZnM2hPwg9fNgU68kpReXUI5mxj/6g3Jtdfslg9tDR0sKO1Pnq5z2Y/9QTUnREZybeWXpr/FgB+g==
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+GIT_INSTALL_ROOT = C:\Users\Syafwan\scoop\apps\git\current
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Syafwan\AppData\Roaming\Code\CachedData\17baf841131aa23349f217ca7c570c76ee87b957
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\Syafwan\AppData\Local\Temp
+# default
+.INCLUDE_DIRS := .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Syafwan\OneDrive
+# makefile
+CURDIR := d:/codes/Saturn/pr-11
+# makefile (from 'd:\codes\Saturn\pr-11\Makefile', line 4)
+SRCS = Assignment_2.cpp
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'd:\codes\Saturn\pr-11\Makefile', line 1)
+MAKEFILE_LIST := d:\codes\Saturn\pr-11\Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 29176
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+__PSLOCKDOWNPOLICY = 0
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-id","resolvedLanguage":"en","defaultMessagesFile":"D:\\folder apps\\Visual Code\\Microsoft VS Code\\resources\\app\\out\\nls.messages.json","locale":"en-us","availableLanguages":{}}
+# environment
+ONEDRIVECONSUMER = C:\Users\Syafwan\OneDrive
+# default
+MAKE_HOST := Windows32
+# makefile (from 'd:\codes\Saturn\pr-11\Makefile', line 5)
+OBJS = $(SRCS:.cpp=.o)
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := C:/cygwin64/bin/sh.exe
+# environment
+HOMEPATH = \Users\Syafwan
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21.0.4\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Syafwan\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Syafwan\AppData\Local\Programs\Python\Python313\;C:\Users\Syafwan\AppData\Local\Programs\Python\Launcher\;C:\cygwin64\bin;C:\Users\Syafwan\scoop\shims;C:\Users\Syafwan\AppData\Local\Microsoft\WindowsApps;C:\Users\Syafwan\AppData\Roaming\npm;D:\folder apps\Visual Code\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\MinGW\bin;
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = LAPTOP-4J7RKFVJ
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+EFC_25024_1592913036 = 1
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133676423533138020
+# environment
+LOGONSERVER = \\LAPTOP-4J7RKFVJ
+# environment
+USERNAME = Syafwan
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = LAPTOP-4J7RKFVJ
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.4.1
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-4J7RKFVJ
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Syafwan\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+CPLUS_INCLUDE_PATH = C:\Users\Syafwan\scoop\apps\gcc\current\include
+# environment
+VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME = undefined
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\Syafwan\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\f6723da2-1.99.3-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'd:\codes\Saturn\pr-11\Makefile', line 3)
+TARGET = Assignment_2
+# environment
+SESSIONNAME = Console
+# makefile (from 'd:\codes\Saturn\pr-11\Makefile', line 2)
+CXXFLAGS = -std=c++11 -Wall
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver output-sync load dospaths
+# environment
+PROCESSOR_REVISION = b701
+# makefile (from 'd:\codes\Saturn\pr-11\Makefile', line 1)
+CXX = g++
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=12/141=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/codes/Saturn/pr-11, mtime 1744894120): 4 files, no impossibilities so far.
+
+# 4 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.cpp
+#  recipe to execute (from 'd:\codes\Saturn\pr-11\Makefile', line 14):
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+Assignment_2: Assignment_2.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'd:\codes\Saturn\pr-11\Makefile', line 10):
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
+	@echo "Linking complete!･ﾟ✧･ﾟ"
+
+# Not a target:
+d:\codes\Saturn\pr-11\Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-04-17 03:23:24
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'd:\codes\Saturn\pr-11\Makefile', line 25):
+	rm -f $(OBJS) $(TARGET)
+	@echo "Cleanup complete!･ﾟ✧･ﾟ"
+
+# Not a target:
+Assignment_2.cpp:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2025-04-17 08:00:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: Assignment_2
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+run: Assignment_2
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'd:\codes\Saturn\pr-11\Makefile', line 17):
+	./$(TARGET)
+	@echo "Compilation complete!･ﾟ✧･ﾟ"
+
+Assignment_2.o: Assignment_2.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Assignment_2'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := Assignment_2.o
+# automatic
+# * := Assignment_2
+# automatic
+# < := Assignment_2.cpp
+# automatic
+# + := Assignment_2.cpp
+# automatic
+# % := 
+# automatic
+# ^ := Assignment_2.cpp
+# automatic
+# ? := Assignment_2.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  recipe to execute (from 'd:\codes\Saturn\pr-11\Makefile', line 14):
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+test: Assignment_2
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'd:\codes\Saturn\pr-11\Makefile', line 21):
+	./$(TARGET)
+	@echo "Testing complete!･ﾟ✧･ﾟ"
+
+.PHONY: all run test clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/35=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 16 / storage = 144 B / avg = 9 B
+# current buf: size = 8162 B / used = 144 B / count = 16 / avg = 9 B
+
+# strcache performance: lookups = 37 / hit rate = 56%
+# hash-table stats:
+# Load=16/8192=0%, Rehash=0, Collisions=0/37=0%
+# Finished Make data base on Thu Apr 17 20:32:37 2025
+
+ 
